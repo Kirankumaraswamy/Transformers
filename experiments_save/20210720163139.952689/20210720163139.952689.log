@@ -1,0 +1,32 @@
+INFO:root:training_config[num_of_optimizers]:2
+INFO:root:training_config[num_of_epochs]:1
+INFO:root:training_config[batch_size]:1
+INFO:root:training_config[num_of_layers]:6
+INFO:root:training_config[model_dims]:512
+INFO:root:training_config[num_of_heads]:8
+INFO:root:training_config[dropout_prob]:0.0
+INFO:root:training_config[smoothing_value]:0.1
+INFO:root:training_config[scheduler1]:paper
+INFO:root:training_config[scheduler2]:paper
+INFO:root:training_config[optimizer_1_lr]:0.1
+INFO:root:training_config[num_warmup_steps1]:4000
+INFO:root:training_config[optimizer_1_beta1]:0.9
+INFO:root:training_config[optimizer_1_beta2]:0.98
+INFO:root:training_config[optimizer_1_eps]:1e-09
+INFO:root:training_config[optimizer_2_lr]:0.1
+INFO:root:training_config[num_warmup_steps2]:4000
+INFO:root:training_config[optimizer_2_beta1]:0.98
+INFO:root:training_config[optimizer_2_beta2]:0.88
+INFO:root:training_config[optimizer_2_eps]:1e-09
+INFO:root:training_config[language_direction]:E2G
+INFO:root:training_config[dataset_path]:/home/kiran/kiran/dl_lab/project/transformers/lab_transformer/utils_train/../data
+INFO:root:training_config[console_log_freq]:10
+INFO:root:training_config[checkpoint_freq]:5
+INFO:root:training_config[use_config_load]:False
+INFO:root:training_config[array_number]:0
+INFO:root:training_config[layer_scheme]:ff-att
+INFO:root:training_config[name]:None
+INFO:root:
+STARTING TRAIN CALL
+INFO:root:torch.device: cuda
+INFO:root:SETUP NUM OPTIMIZERS: 1 

@@ -1,0 +1,1203 @@
+
+###############     NAME      ###############
+# Generated with:
+#     for name, layer in transformer.named_modules():
+#             print(name)
+src_embedding
+src_embedding.embeddings_table
+trg_embedding
+trg_embedding.embeddings_table
+src_pos_embedding
+src_pos_embedding.dropout
+trg_pos_embedding
+trg_pos_embedding.dropout
+encoder
+encoder.encoder_layers
+encoder.encoder_layers.0
+encoder.encoder_layers.0.sublayers
+encoder.encoder_layers.0.sublayers.0
+encoder.encoder_layers.0.sublayers.0.norm
+encoder.encoder_layers.0.sublayers.0.dropout
+encoder.encoder_layers.0.sublayers.1
+encoder.encoder_layers.0.sublayers.1.norm
+encoder.encoder_layers.0.sublayers.1.dropout
+encoder.encoder_layers.0.multi_headed_attention
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.0
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.1
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.2
+encoder.encoder_layers.0.multi_headed_attention.out_projection_net
+encoder.encoder_layers.0.multi_headed_attention.attention_dropout
+encoder.encoder_layers.0.multi_headed_attention.softmax
+encoder.encoder_layers.0.pointwise_net
+encoder.encoder_layers.0.pointwise_net.linear1
+encoder.encoder_layers.0.pointwise_net.linear2
+encoder.encoder_layers.0.pointwise_net.dropout
+encoder.encoder_layers.0.pointwise_net.relu
+encoder.encoder_layers.1
+encoder.encoder_layers.1.sublayers
+encoder.encoder_layers.1.sublayers.0
+encoder.encoder_layers.1.sublayers.0.norm
+encoder.encoder_layers.1.sublayers.0.dropout
+encoder.encoder_layers.1.sublayers.1
+encoder.encoder_layers.1.sublayers.1.norm
+encoder.encoder_layers.1.sublayers.1.dropout
+encoder.encoder_layers.1.multi_headed_attention
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.0
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.1
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.2
+encoder.encoder_layers.1.multi_headed_attention.out_projection_net
+encoder.encoder_layers.1.multi_headed_attention.attention_dropout
+encoder.encoder_layers.1.multi_headed_attention.softmax
+encoder.encoder_layers.1.pointwise_net
+encoder.encoder_layers.1.pointwise_net.linear1
+encoder.encoder_layers.1.pointwise_net.linear2
+encoder.encoder_layers.1.pointwise_net.dropout
+encoder.encoder_layers.1.pointwise_net.relu
+encoder.norm
+decoder
+decoder.decoder_layers
+decoder.decoder_layers.0
+decoder.decoder_layers.0.sublayers
+decoder.decoder_layers.0.sublayers.0
+decoder.decoder_layers.0.sublayers.0.norm
+decoder.decoder_layers.0.sublayers.0.dropout
+decoder.decoder_layers.0.sublayers.1
+decoder.decoder_layers.0.sublayers.1.norm
+decoder.decoder_layers.0.sublayers.1.dropout
+decoder.decoder_layers.0.sublayers.2
+decoder.decoder_layers.0.sublayers.2.norm
+decoder.decoder_layers.0.sublayers.2.dropout
+decoder.decoder_layers.0.trg_multi_headed_attention
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.0
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.1
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.2
+decoder.decoder_layers.0.trg_multi_headed_attention.out_projection_net
+decoder.decoder_layers.0.trg_multi_headed_attention.attention_dropout
+decoder.decoder_layers.0.trg_multi_headed_attention.softmax
+decoder.decoder_layers.0.src_multi_headed_attention
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.0
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.1
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.2
+decoder.decoder_layers.0.src_multi_headed_attention.out_projection_net
+decoder.decoder_layers.0.src_multi_headed_attention.attention_dropout
+decoder.decoder_layers.0.src_multi_headed_attention.softmax
+decoder.decoder_layers.0.pointwise_net
+decoder.decoder_layers.0.pointwise_net.linear1
+decoder.decoder_layers.0.pointwise_net.linear2
+decoder.decoder_layers.0.pointwise_net.dropout
+decoder.decoder_layers.0.pointwise_net.relu
+decoder.decoder_layers.1
+decoder.decoder_layers.1.sublayers
+decoder.decoder_layers.1.sublayers.0
+decoder.decoder_layers.1.sublayers.0.norm
+decoder.decoder_layers.1.sublayers.0.dropout
+decoder.decoder_layers.1.sublayers.1
+decoder.decoder_layers.1.sublayers.1.norm
+decoder.decoder_layers.1.sublayers.1.dropout
+decoder.decoder_layers.1.sublayers.2
+decoder.decoder_layers.1.sublayers.2.norm
+decoder.decoder_layers.1.sublayers.2.dropout
+decoder.decoder_layers.1.trg_multi_headed_attention
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.0
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.1
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.2
+decoder.decoder_layers.1.trg_multi_headed_attention.out_projection_net
+decoder.decoder_layers.1.trg_multi_headed_attention.attention_dropout
+decoder.decoder_layers.1.trg_multi_headed_attention.softmax
+decoder.decoder_layers.1.src_multi_headed_attention
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.0
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.1
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.2
+decoder.decoder_layers.1.src_multi_headed_attention.out_projection_net
+decoder.decoder_layers.1.src_multi_headed_attention.attention_dropout
+decoder.decoder_layers.1.src_multi_headed_attention.softmax
+decoder.decoder_layers.1.pointwise_net
+decoder.decoder_layers.1.pointwise_net.linear1
+decoder.decoder_layers.1.pointwise_net.linear2
+decoder.decoder_layers.1.pointwise_net.dropout
+decoder.decoder_layers.1.pointwise_net.relu
+decoder.norm
+decoder_generator
+decoder_generator.linear
+decoder_generator.log_softmax
+###############     NAME,LAYER      ###############
+# Generated with:
+#     for name, layer in transformer.named_modules():
+#             print(name, layer)
+ Transformer(
+  (src_embedding): Embedding(
+    (embeddings_table): Embedding(36321, 512)
+  )
+  (trg_embedding): Embedding(
+    (embeddings_table): Embedding(58949, 512)
+  )
+  (src_pos_embedding): PositionalEncoding(
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (trg_pos_embedding): PositionalEncoding(
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (encoder): Encoder(
+    (encoder_layers): ModuleList(
+      (0): EncoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+      (1): EncoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+    )
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+  (decoder): Decoder(
+    (decoder_layers): ModuleList(
+      (0): DecoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (2): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (trg_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (src_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+      (1): DecoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (2): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (trg_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (src_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+    )
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+  (decoder_generator): DecoderGenerator(
+    (linear): Linear(in_features=512, out_features=58949, bias=True)
+    (log_softmax): LogSoftmax()
+  )
+)
+src_embedding Embedding(
+  (embeddings_table): Embedding(36321, 512)
+)
+src_embedding.embeddings_table Embedding(36321, 512)
+trg_embedding Embedding(
+  (embeddings_table): Embedding(58949, 512)
+)
+trg_embedding.embeddings_table Embedding(58949, 512)
+src_pos_embedding PositionalEncoding(
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+src_pos_embedding.dropout Dropout(p=0.0, inplace=False)
+trg_pos_embedding PositionalEncoding(
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+trg_pos_embedding.dropout Dropout(p=0.0, inplace=False)
+encoder Encoder(
+  (encoder_layers): ModuleList(
+    (0): EncoderLayer(
+      (sublayers): ModuleList(
+        (0): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (1): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (pointwise_net): PositionwiseFeedForwardNet(
+        (linear1): Linear(in_features=512, out_features=2048, bias=True)
+        (linear2): Linear(in_features=2048, out_features=512, bias=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+        (relu): ReLU()
+      )
+    )
+    (1): EncoderLayer(
+      (sublayers): ModuleList(
+        (0): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (1): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (pointwise_net): PositionwiseFeedForwardNet(
+        (linear1): Linear(in_features=512, out_features=2048, bias=True)
+        (linear2): Linear(in_features=2048, out_features=512, bias=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+        (relu): ReLU()
+      )
+    )
+  )
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+encoder.encoder_layers ModuleList(
+  (0): EncoderLayer(
+    (sublayers): ModuleList(
+      (0): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (1): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+    )
+    (multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (pointwise_net): PositionwiseFeedForwardNet(
+      (linear1): Linear(in_features=512, out_features=2048, bias=True)
+      (linear2): Linear(in_features=2048, out_features=512, bias=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+      (relu): ReLU()
+    )
+  )
+  (1): EncoderLayer(
+    (sublayers): ModuleList(
+      (0): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (1): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+    )
+    (multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (pointwise_net): PositionwiseFeedForwardNet(
+      (linear1): Linear(in_features=512, out_features=2048, bias=True)
+      (linear2): Linear(in_features=2048, out_features=512, bias=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+      (relu): ReLU()
+    )
+  )
+)
+encoder.encoder_layers.0 EncoderLayer(
+  (sublayers): ModuleList(
+    (0): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (1): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (pointwise_net): PositionwiseFeedForwardNet(
+    (linear1): Linear(in_features=512, out_features=2048, bias=True)
+    (linear2): Linear(in_features=2048, out_features=512, bias=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+    (relu): ReLU()
+  )
+)
+encoder.encoder_layers.0.sublayers ModuleList(
+  (0): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (1): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+)
+encoder.encoder_layers.0.sublayers.0 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+encoder.encoder_layers.0.sublayers.0.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+encoder.encoder_layers.0.sublayers.0.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.0.sublayers.1 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+encoder.encoder_layers.0.sublayers.1.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+encoder.encoder_layers.0.sublayers.1.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.0.multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.0.multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.0.multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.0.multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.0.multi_headed_attention.softmax Softmax(dim=-1)
+encoder.encoder_layers.0.pointwise_net PositionwiseFeedForwardNet(
+  (linear1): Linear(in_features=512, out_features=2048, bias=True)
+  (linear2): Linear(in_features=2048, out_features=512, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+  (relu): ReLU()
+)
+encoder.encoder_layers.0.pointwise_net.linear1 Linear(in_features=512, out_features=2048, bias=True)
+encoder.encoder_layers.0.pointwise_net.linear2 Linear(in_features=2048, out_features=512, bias=True)
+encoder.encoder_layers.0.pointwise_net.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.0.pointwise_net.relu ReLU()
+encoder.encoder_layers.1 EncoderLayer(
+  (sublayers): ModuleList(
+    (0): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (1): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (pointwise_net): PositionwiseFeedForwardNet(
+    (linear1): Linear(in_features=512, out_features=2048, bias=True)
+    (linear2): Linear(in_features=2048, out_features=512, bias=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+    (relu): ReLU()
+  )
+)
+encoder.encoder_layers.1.sublayers ModuleList(
+  (0): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (1): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+)
+encoder.encoder_layers.1.sublayers.0 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+encoder.encoder_layers.1.sublayers.0.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+encoder.encoder_layers.1.sublayers.0.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.1.sublayers.1 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+encoder.encoder_layers.1.sublayers.1.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+encoder.encoder_layers.1.sublayers.1.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.1.multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.1.multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.1.multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+encoder.encoder_layers.1.multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.1.multi_headed_attention.softmax Softmax(dim=-1)
+encoder.encoder_layers.1.pointwise_net PositionwiseFeedForwardNet(
+  (linear1): Linear(in_features=512, out_features=2048, bias=True)
+  (linear2): Linear(in_features=2048, out_features=512, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+  (relu): ReLU()
+)
+encoder.encoder_layers.1.pointwise_net.linear1 Linear(in_features=512, out_features=2048, bias=True)
+encoder.encoder_layers.1.pointwise_net.linear2 Linear(in_features=2048, out_features=512, bias=True)
+encoder.encoder_layers.1.pointwise_net.dropout Dropout(p=0.0, inplace=False)
+encoder.encoder_layers.1.pointwise_net.relu ReLU()
+encoder.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder Decoder(
+  (decoder_layers): ModuleList(
+    (0): DecoderLayer(
+      (sublayers): ModuleList(
+        (0): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (1): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (2): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (trg_multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (src_multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (pointwise_net): PositionwiseFeedForwardNet(
+        (linear1): Linear(in_features=512, out_features=2048, bias=True)
+        (linear2): Linear(in_features=2048, out_features=512, bias=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+        (relu): ReLU()
+      )
+    )
+    (1): DecoderLayer(
+      (sublayers): ModuleList(
+        (0): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (1): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+        (2): SublayerLogic(
+          (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (trg_multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (src_multi_headed_attention): MultiHeadedAttention(
+        (qkv_nets): ModuleList(
+          (0): Linear(in_features=512, out_features=512, bias=True)
+          (1): Linear(in_features=512, out_features=512, bias=True)
+          (2): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+        (attention_dropout): Dropout(p=0.0, inplace=False)
+        (softmax): Softmax(dim=-1)
+      )
+      (pointwise_net): PositionwiseFeedForwardNet(
+        (linear1): Linear(in_features=512, out_features=2048, bias=True)
+        (linear2): Linear(in_features=2048, out_features=512, bias=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+        (relu): ReLU()
+      )
+    )
+  )
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+decoder.decoder_layers ModuleList(
+  (0): DecoderLayer(
+    (sublayers): ModuleList(
+      (0): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (1): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (2): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+    )
+    (trg_multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (src_multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (pointwise_net): PositionwiseFeedForwardNet(
+      (linear1): Linear(in_features=512, out_features=2048, bias=True)
+      (linear2): Linear(in_features=2048, out_features=512, bias=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+      (relu): ReLU()
+    )
+  )
+  (1): DecoderLayer(
+    (sublayers): ModuleList(
+      (0): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (1): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+      (2): SublayerLogic(
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.0, inplace=False)
+      )
+    )
+    (trg_multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (src_multi_headed_attention): MultiHeadedAttention(
+      (qkv_nets): ModuleList(
+        (0): Linear(in_features=512, out_features=512, bias=True)
+        (1): Linear(in_features=512, out_features=512, bias=True)
+        (2): Linear(in_features=512, out_features=512, bias=True)
+      )
+      (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+      (attention_dropout): Dropout(p=0.0, inplace=False)
+      (softmax): Softmax(dim=-1)
+    )
+    (pointwise_net): PositionwiseFeedForwardNet(
+      (linear1): Linear(in_features=512, out_features=2048, bias=True)
+      (linear2): Linear(in_features=2048, out_features=512, bias=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+      (relu): ReLU()
+    )
+  )
+)
+decoder.decoder_layers.0 DecoderLayer(
+  (sublayers): ModuleList(
+    (0): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (1): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (2): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (trg_multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (src_multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (pointwise_net): PositionwiseFeedForwardNet(
+    (linear1): Linear(in_features=512, out_features=2048, bias=True)
+    (linear2): Linear(in_features=2048, out_features=512, bias=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+    (relu): ReLU()
+  )
+)
+decoder.decoder_layers.0.sublayers ModuleList(
+  (0): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (1): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (2): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+)
+decoder.decoder_layers.0.sublayers.0 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.0.sublayers.0.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.0.sublayers.0.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.sublayers.1 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.0.sublayers.1.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.0.sublayers.1.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.sublayers.2 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.0.sublayers.2.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.0.sublayers.2.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.trg_multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.trg_multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.trg_multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.trg_multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.trg_multi_headed_attention.softmax Softmax(dim=-1)
+decoder.decoder_layers.0.src_multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.src_multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.src_multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.0.src_multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.src_multi_headed_attention.softmax Softmax(dim=-1)
+decoder.decoder_layers.0.pointwise_net PositionwiseFeedForwardNet(
+  (linear1): Linear(in_features=512, out_features=2048, bias=True)
+  (linear2): Linear(in_features=2048, out_features=512, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+  (relu): ReLU()
+)
+decoder.decoder_layers.0.pointwise_net.linear1 Linear(in_features=512, out_features=2048, bias=True)
+decoder.decoder_layers.0.pointwise_net.linear2 Linear(in_features=2048, out_features=512, bias=True)
+decoder.decoder_layers.0.pointwise_net.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.0.pointwise_net.relu ReLU()
+decoder.decoder_layers.1 DecoderLayer(
+  (sublayers): ModuleList(
+    (0): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (1): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (2): SublayerLogic(
+      (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (trg_multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (src_multi_headed_attention): MultiHeadedAttention(
+    (qkv_nets): ModuleList(
+      (0): Linear(in_features=512, out_features=512, bias=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): Linear(in_features=512, out_features=512, bias=True)
+    )
+    (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+    (attention_dropout): Dropout(p=0.0, inplace=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (pointwise_net): PositionwiseFeedForwardNet(
+    (linear1): Linear(in_features=512, out_features=2048, bias=True)
+    (linear2): Linear(in_features=2048, out_features=512, bias=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+    (relu): ReLU()
+  )
+)
+decoder.decoder_layers.1.sublayers ModuleList(
+  (0): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (1): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (2): SublayerLogic(
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+)
+decoder.decoder_layers.1.sublayers.0 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.1.sublayers.0.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.1.sublayers.0.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.sublayers.1 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.1.sublayers.1.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.1.sublayers.1.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.sublayers.2 SublayerLogic(
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+decoder.decoder_layers.1.sublayers.2.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder.decoder_layers.1.sublayers.2.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.trg_multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.trg_multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.trg_multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.trg_multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.trg_multi_headed_attention.softmax Softmax(dim=-1)
+decoder.decoder_layers.1.src_multi_headed_attention MultiHeadedAttention(
+  (qkv_nets): ModuleList(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): Linear(in_features=512, out_features=512, bias=True)
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+  (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+  (attention_dropout): Dropout(p=0.0, inplace=False)
+  (softmax): Softmax(dim=-1)
+)
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets ModuleList(
+  (0): Linear(in_features=512, out_features=512, bias=True)
+  (1): Linear(in_features=512, out_features=512, bias=True)
+  (2): Linear(in_features=512, out_features=512, bias=True)
+)
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.0 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.1 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.src_multi_headed_attention.qkv_nets.2 Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.src_multi_headed_attention.out_projection_net Linear(in_features=512, out_features=512, bias=True)
+decoder.decoder_layers.1.src_multi_headed_attention.attention_dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.src_multi_headed_attention.softmax Softmax(dim=-1)
+decoder.decoder_layers.1.pointwise_net PositionwiseFeedForwardNet(
+  (linear1): Linear(in_features=512, out_features=2048, bias=True)
+  (linear2): Linear(in_features=2048, out_features=512, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+  (relu): ReLU()
+)
+decoder.decoder_layers.1.pointwise_net.linear1 Linear(in_features=512, out_features=2048, bias=True)
+decoder.decoder_layers.1.pointwise_net.linear2 Linear(in_features=2048, out_features=512, bias=True)
+decoder.decoder_layers.1.pointwise_net.dropout Dropout(p=0.0, inplace=False)
+decoder.decoder_layers.1.pointwise_net.relu ReLU()
+decoder.norm LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+decoder_generator DecoderGenerator(
+  (linear): Linear(in_features=512, out_features=58949, bias=True)
+  (log_softmax): LogSoftmax()
+)
+decoder_generator.linear Linear(in_features=512, out_features=58949, bias=True)
+decoder_generator.log_softmax LogSoftmax()
+###############     MODEL      ###############
+# Generated with:
+#     print(transformer)
+Transformer(
+  (src_embedding): Embedding(
+    (embeddings_table): Embedding(36321, 512)
+  )
+  (trg_embedding): Embedding(
+    (embeddings_table): Embedding(58949, 512)
+  )
+  (src_pos_embedding): PositionalEncoding(
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (trg_pos_embedding): PositionalEncoding(
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (encoder): Encoder(
+    (encoder_layers): ModuleList(
+      (0): EncoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+      (1): EncoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+    )
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+  (decoder): Decoder(
+    (decoder_layers): ModuleList(
+      (0): DecoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (2): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (trg_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (src_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+      (1): DecoderLayer(
+        (sublayers): ModuleList(
+          (0): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (1): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+          (2): SublayerLogic(
+            (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (trg_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (src_multi_headed_attention): MultiHeadedAttention(
+          (qkv_nets): ModuleList(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Linear(in_features=512, out_features=512, bias=True)
+            (2): Linear(in_features=512, out_features=512, bias=True)
+          )
+          (out_projection_net): Linear(in_features=512, out_features=512, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+          (softmax): Softmax(dim=-1)
+        )
+        (pointwise_net): PositionwiseFeedForwardNet(
+          (linear1): Linear(in_features=512, out_features=2048, bias=True)
+          (linear2): Linear(in_features=2048, out_features=512, bias=True)
+          (dropout): Dropout(p=0.0, inplace=False)
+          (relu): ReLU()
+        )
+      )
+    )
+    (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+  (decoder_generator): DecoderGenerator(
+    (linear): Linear(in_features=512, out_features=58949, bias=True)
+    (log_softmax): LogSoftmax()
+  )
+)

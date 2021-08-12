@@ -1,0 +1,161 @@
+INFO:root:training_config[num_of_optimizers]:2
+INFO:root:training_config[num_of_epochs]:1
+INFO:root:training_config[batch_size]:1000
+INFO:root:training_config[num_of_layers]:6
+INFO:root:training_config[model_dims]:512
+INFO:root:training_config[num_of_heads]:8
+INFO:root:training_config[dropout_prob]:0.1
+INFO:root:training_config[smoothing_value]:0.1
+INFO:root:training_config[scheduler1]:paper
+INFO:root:training_config[scheduler2]:paper
+INFO:root:training_config[optimizer_1_lr]:0.1
+INFO:root:training_config[num_warmup_steps1]:4000
+INFO:root:training_config[optimizer_1_beta1]:0.9
+INFO:root:training_config[optimizer_1_beta2]:0.98
+INFO:root:training_config[optimizer_1_eps]:1e-09
+INFO:root:training_config[optimizer_2_lr]:0.1
+INFO:root:training_config[num_warmup_steps2]:4000
+INFO:root:training_config[optimizer_2_beta1]:0.8
+INFO:root:training_config[optimizer_2_beta2]:0.88
+INFO:root:training_config[optimizer_2_eps]:1e-09
+INFO:root:training_config[language_direction]:E2G
+INFO:root:training_config[dataset_path]:/home/kiran/kiran/dl_lab/project/transformers/lab_transformer/utils_train/../data
+INFO:root:training_config[console_log_freq]:10
+INFO:root:training_config[checkpoint_freq]:5
+INFO:root:
+STARTING TRAIN CALL
+INFO:root:torch.device: cpu
+INFO:root:SETUP NUM OPTIMIZERS: 2
+INFO:root:Optimizer 1 is paper
+INFO:root:Optimizer 2 is paper
+INFO:root:Transformer training: time elapsed= 2.34 [s] | epoch=1 | batch= 1 | target tokens/batch= 91.19999694824219
+INFO:root:Transformer training: time elapsed= 24.69 [s] | epoch=1 | batch= 11 | target tokens/batch= 786.0
+INFO:root:Transformer training: time elapsed= 46.93 [s] | epoch=1 | batch= 21 | target tokens/batch= 743.2000122070312
+INFO:root:Transformer training: time elapsed= 70.03 [s] | epoch=1 | batch= 31 | target tokens/batch= 790.4000244140625
+INFO:root:Transformer training: time elapsed= 92.13 [s] | epoch=1 | batch= 41 | target tokens/batch= 766.4000244140625
+INFO:root:Transformer training: time elapsed= 114.76 [s] | epoch=1 | batch= 51 | target tokens/batch= 802.0
+INFO:root:Transformer training: time elapsed= 137.66 [s] | epoch=1 | batch= 61 | target tokens/batch= 802.2000122070312
+INFO:root:Transformer training: time elapsed= 159.55 [s] | epoch=1 | batch= 71 | target tokens/batch= 767.7000122070312
+INFO:root:Transformer training: time elapsed= 182.71 [s] | epoch=1 | batch= 81 | target tokens/batch= 790.4000244140625
+INFO:root:Transformer training: time elapsed= 205.67 [s] | epoch=1 | batch= 91 | target tokens/batch= 797.2000122070312
+INFO:root:Transformer training: time elapsed= 227.53 [s] | epoch=1 | batch= 101 | target tokens/batch= 753.9000244140625
+INFO:root:Transformer training: time elapsed= 249.90 [s] | epoch=1 | batch= 111 | target tokens/batch= 809.2000122070312
+INFO:root:Transformer training: time elapsed= 271.34 [s] | epoch=1 | batch= 121 | target tokens/batch= 722.0999755859375
+INFO:root:Transformer training: time elapsed= 294.05 [s] | epoch=1 | batch= 131 | target tokens/batch= 828.9000244140625
+INFO:root:Transformer training: time elapsed= 316.61 [s] | epoch=1 | batch= 141 | target tokens/batch= 806.4000244140625
+INFO:root:Transformer training: time elapsed= 339.03 [s] | epoch=1 | batch= 151 | target tokens/batch= 773.2000122070312
+INFO:root:Transformer training: time elapsed= 361.85 [s] | epoch=1 | batch= 161 | target tokens/batch= 756.0999755859375
+INFO:root:Transformer training: time elapsed= 384.46 [s] | epoch=1 | batch= 171 | target tokens/batch= 808.5999755859375
+INFO:root:Transformer training: time elapsed= 407.15 [s] | epoch=1 | batch= 181 | target tokens/batch= 800.4000244140625
+INFO:root:Transformer training: time elapsed= 430.11 [s] | epoch=1 | batch= 191 | target tokens/batch= 801.9000244140625
+INFO:root:Transformer training: time elapsed= 452.63 [s] | epoch=1 | batch= 201 | target tokens/batch= 822.0
+INFO:root:Transformer training: time elapsed= 475.64 [s] | epoch=1 | batch= 211 | target tokens/batch= 823.0
+INFO:root:Transformer training: time elapsed= 497.31 [s] | epoch=1 | batch= 221 | target tokens/batch= 713.9000244140625
+INFO:root:Transformer training: time elapsed= 519.17 [s] | epoch=1 | batch= 231 | target tokens/batch= 783.4000244140625
+INFO:root:Transformer training: time elapsed= 541.66 [s] | epoch=1 | batch= 241 | target tokens/batch= 781.0
+INFO:root:Transformer training: time elapsed= 562.91 [s] | epoch=1 | batch= 251 | target tokens/batch= 745.7999877929688
+INFO:root:Transformer training: time elapsed= 586.02 [s] | epoch=1 | batch= 261 | target tokens/batch= 785.2000122070312
+INFO:root:Transformer training: time elapsed= 606.70 [s] | epoch=1 | batch= 271 | target tokens/batch= 732.0999755859375
+INFO:root:Transformer training: time elapsed= 628.89 [s] | epoch=1 | batch= 281 | target tokens/batch= 794.0999755859375
+INFO:root:Transformer training: time elapsed= 650.79 [s] | epoch=1 | batch= 291 | target tokens/batch= 812.5999755859375
+INFO:root:Transformer training: time elapsed= 673.31 [s] | epoch=1 | batch= 301 | target tokens/batch= 803.7999877929688
+INFO:root:Transformer training: time elapsed= 695.71 [s] | epoch=1 | batch= 311 | target tokens/batch= 769.2999877929688
+INFO:root:Transformer training: time elapsed= 718.23 [s] | epoch=1 | batch= 321 | target tokens/batch= 815.2999877929688
+INFO:root:Transformer training: time elapsed= 740.14 [s] | epoch=1 | batch= 331 | target tokens/batch= 782.7999877929688
+INFO:root:Transformer training: time elapsed= 762.49 [s] | epoch=1 | batch= 341 | target tokens/batch= 809.0
+INFO:root:Transformer training: time elapsed= 785.06 [s] | epoch=1 | batch= 351 | target tokens/batch= 776.0999755859375
+INFO:root:Transformer training: time elapsed= 807.41 [s] | epoch=1 | batch= 361 | target tokens/batch= 797.0
+INFO:root:Transformer training: time elapsed= 829.79 [s] | epoch=1 | batch= 371 | target tokens/batch= 811.0
+INFO:root:Transformer training: time elapsed= 852.18 [s] | epoch=1 | batch= 381 | target tokens/batch= 791.4000244140625
+INFO:root:Transformer training: time elapsed= 873.67 [s] | epoch=1 | batch= 391 | target tokens/batch= 716.2000122070312
+INFO:root:Transformer training: time elapsed= 896.37 [s] | epoch=1 | batch= 401 | target tokens/batch= 802.2999877929688
+INFO:root:Transformer training: time elapsed= 918.88 [s] | epoch=1 | batch= 411 | target tokens/batch= 802.7000122070312
+INFO:root:Transformer training: time elapsed= 940.39 [s] | epoch=1 | batch= 421 | target tokens/batch= 753.7999877929688
+INFO:root:Transformer training: time elapsed= 962.91 [s] | epoch=1 | batch= 431 | target tokens/batch= 800.7999877929688
+INFO:root:Transformer training: time elapsed= 985.76 [s] | epoch=1 | batch= 441 | target tokens/batch= 794.2999877929688
+INFO:root:Transformer training: time elapsed= 1008.04 [s] | epoch=1 | batch= 451 | target tokens/batch= 765.9000244140625
+INFO:root:Transformer training: time elapsed= 1030.87 [s] | epoch=1 | batch= 461 | target tokens/batch= 788.2000122070312
+INFO:root:Transformer training: time elapsed= 1051.53 [s] | epoch=1 | batch= 471 | target tokens/batch= 736.2000122070312
+INFO:root:Transformer training: time elapsed= 1075.22 [s] | epoch=1 | batch= 481 | target tokens/batch= 825.4000244140625
+INFO:root:Transformer training: time elapsed= 1097.54 [s] | epoch=1 | batch= 491 | target tokens/batch= 772.2999877929688
+INFO:root:Transformer training: time elapsed= 1120.77 [s] | epoch=1 | batch= 501 | target tokens/batch= 781.4000244140625
+INFO:root:Transformer training: time elapsed= 1144.26 [s] | epoch=1 | batch= 511 | target tokens/batch= 815.0999755859375
+INFO:root:Transformer training: time elapsed= 1167.37 [s] | epoch=1 | batch= 521 | target tokens/batch= 794.2000122070312
+INFO:root:Transformer training: time elapsed= 1190.58 [s] | epoch=1 | batch= 531 | target tokens/batch= 770.4000244140625
+INFO:root:Transformer training: time elapsed= 1214.70 [s] | epoch=1 | batch= 541 | target tokens/batch= 813.2999877929688
+INFO:root:Transformer training: time elapsed= 1239.17 [s] | epoch=1 | batch= 551 | target tokens/batch= 835.7000122070312
+INFO:root:Transformer training: time elapsed= 1264.03 [s] | epoch=1 | batch= 561 | target tokens/batch= 764.2999877929688
+INFO:root:Transformer training: time elapsed= 1289.59 [s] | epoch=1 | batch= 571 | target tokens/batch= 807.2999877929688
+INFO:root:Transformer training: time elapsed= 1314.88 [s] | epoch=1 | batch= 581 | target tokens/batch= 789.5
+INFO:root:Transformer training: time elapsed= 1340.24 [s] | epoch=1 | batch= 591 | target tokens/batch= 817.4000244140625
+INFO:root:Transformer training: time elapsed= 1364.21 [s] | epoch=1 | batch= 601 | target tokens/batch= 750.0999755859375
+INFO:root:Transformer training: time elapsed= 1391.12 [s] | epoch=1 | batch= 611 | target tokens/batch= 827.5
+INFO:root:Transformer training: time elapsed= 1414.69 [s] | epoch=1 | batch= 621 | target tokens/batch= 702.9000244140625
+INFO:root:Transformer training: time elapsed= 1440.78 [s] | epoch=1 | batch= 631 | target tokens/batch= 844.4000244140625
+INFO:root:Transformer training: time elapsed= 1466.61 [s] | epoch=1 | batch= 641 | target tokens/batch= 756.7000122070312
+INFO:root:Transformer training: time elapsed= 1491.75 [s] | epoch=1 | batch= 651 | target tokens/batch= 743.2000122070312
+INFO:root:Transformer training: time elapsed= 1517.93 [s] | epoch=1 | batch= 661 | target tokens/batch= 801.2000122070312
+INFO:root:Transformer training: time elapsed= 1544.20 [s] | epoch=1 | batch= 671 | target tokens/batch= 790.9000244140625
+INFO:root:Transformer training: time elapsed= 1570.62 [s] | epoch=1 | batch= 681 | target tokens/batch= 804.2000122070312
+INFO:root:Transformer training: time elapsed= 1597.03 [s] | epoch=1 | batch= 691 | target tokens/batch= 780.0
+INFO:root:Transformer training: time elapsed= 1622.45 [s] | epoch=1 | batch= 701 | target tokens/batch= 748.7999877929688
+INFO:root:Transformer training: time elapsed= 1647.88 [s] | epoch=1 | batch= 711 | target tokens/batch= 784.7000122070312
+INFO:root:Transformer training: time elapsed= 1675.01 [s] | epoch=1 | batch= 721 | target tokens/batch= 825.9000244140625
+INFO:root:Transformer training: time elapsed= 1699.53 [s] | epoch=1 | batch= 731 | target tokens/batch= 711.2000122070312
+INFO:root:Transformer training: time elapsed= 1726.01 [s] | epoch=1 | batch= 741 | target tokens/batch= 774.7000122070312
+INFO:root:Transformer training: time elapsed= 1751.73 [s] | epoch=1 | batch= 751 | target tokens/batch= 792.0999755859375
+INFO:root:Transformer training: time elapsed= 1778.94 [s] | epoch=1 | batch= 761 | target tokens/batch= 797.2999877929688
+INFO:root:Transformer training: time elapsed= 1806.14 [s] | epoch=1 | batch= 771 | target tokens/batch= 810.0
+INFO:root:Transformer training: time elapsed= 1832.73 [s] | epoch=1 | batch= 781 | target tokens/batch= 781.0
+INFO:root:Transformer training: time elapsed= 1859.44 [s] | epoch=1 | batch= 791 | target tokens/batch= 760.0999755859375
+INFO:root:Transformer training: time elapsed= 1886.06 [s] | epoch=1 | batch= 801 | target tokens/batch= 771.9000244140625
+INFO:root:Transformer training: time elapsed= 1913.11 [s] | epoch=1 | batch= 811 | target tokens/batch= 787.9000244140625
+INFO:root:Transformer training: time elapsed= 1938.56 [s] | epoch=1 | batch= 821 | target tokens/batch= 684.2999877929688
+INFO:root:Transformer training: time elapsed= 1967.08 [s] | epoch=1 | batch= 831 | target tokens/batch= 802.7999877929688
+INFO:root:Transformer training: time elapsed= 1994.72 [s] | epoch=1 | batch= 841 | target tokens/batch= 785.4000244140625
+INFO:root:Transformer training: time elapsed= 2022.48 [s] | epoch=1 | batch= 851 | target tokens/batch= 817.0999755859375
+INFO:root:Transformer training: time elapsed= 2051.03 [s] | epoch=1 | batch= 861 | target tokens/batch= 813.2999877929688
+INFO:root:Transformer training: time elapsed= 2079.86 [s] | epoch=1 | batch= 871 | target tokens/batch= 800.7000122070312
+INFO:root:Transformer training: time elapsed= 2107.98 [s] | epoch=1 | batch= 881 | target tokens/batch= 792.2000122070312
+INFO:root:Transformer training: time elapsed= 2134.87 [s] | epoch=1 | batch= 891 | target tokens/batch= 742.2999877929688
+INFO:root:Transformer training: time elapsed= 2163.15 [s] | epoch=1 | batch= 901 | target tokens/batch= 806.5
+INFO:root:Transformer training: time elapsed= 2190.83 [s] | epoch=1 | batch= 911 | target tokens/batch= 775.9000244140625
+INFO:root:Transformer training: time elapsed= 2220.84 [s] | epoch=1 | batch= 921 | target tokens/batch= 814.7000122070312
+INFO:root:Transformer training: time elapsed= 2247.43 [s] | epoch=1 | batch= 931 | target tokens/batch= 714.2999877929688
+INFO:root:Transformer training: time elapsed= 2276.68 [s] | epoch=1 | batch= 941 | target tokens/batch= 807.0
+INFO:root:Transformer training: time elapsed= 2305.18 [s] | epoch=1 | batch= 951 | target tokens/batch= 800.9000244140625
+INFO:root:Transformer training: time elapsed= 2333.17 [s] | epoch=1 | batch= 961 | target tokens/batch= 770.5999755859375
+INFO:root:Transformer training: time elapsed= 2361.83 [s] | epoch=1 | batch= 971 | target tokens/batch= 785.5
+INFO:root:Transformer training: time elapsed= 2391.67 [s] | epoch=1 | batch= 981 | target tokens/batch= 825.2000122070312
+INFO:root:Transformer training: time elapsed= 2420.03 [s] | epoch=1 | batch= 991 | target tokens/batch= 783.0999755859375
+INFO:root:Transformer training: time elapsed= 2448.71 [s] | epoch=1 | batch= 1001 | target tokens/batch= 785.2000122070312
+INFO:root:Transformer training: time elapsed= 2476.91 [s] | epoch=1 | batch= 1011 | target tokens/batch= 746.7000122070312
+INFO:root:Transformer training: time elapsed= 2503.93 [s] | epoch=1 | batch= 1021 | target tokens/batch= 725.0
+INFO:root:Transformer training: time elapsed= 2533.95 [s] | epoch=1 | batch= 1031 | target tokens/batch= 767.7000122070312
+INFO:root:Transformer training: time elapsed= 2564.55 [s] | epoch=1 | batch= 1041 | target tokens/batch= 827.9000244140625
+INFO:root:Transformer training: time elapsed= 2593.46 [s] | epoch=1 | batch= 1051 | target tokens/batch= 767.7000122070312
+INFO:root:Transformer training: time elapsed= 2625.84 [s] | epoch=1 | batch= 1061 | target tokens/batch= 815.5
+INFO:root:Transformer training: time elapsed= 2657.52 [s] | epoch=1 | batch= 1071 | target tokens/batch= 768.9000244140625
+INFO:root:Transformer training: time elapsed= 2687.06 [s] | epoch=1 | batch= 1081 | target tokens/batch= 765.2000122070312
+INFO:root:Transformer training: time elapsed= 2717.38 [s] | epoch=1 | batch= 1091 | target tokens/batch= 810.5
+INFO:root:Transformer training: time elapsed= 2747.22 [s] | epoch=1 | batch= 1101 | target tokens/batch= 792.0999755859375
+INFO:root:Transformer training: time elapsed= 2774.18 [s] | epoch=1 | batch= 1111 | target tokens/batch= 706.2999877929688
+INFO:root:Transformer training: time elapsed= 2805.15 [s] | epoch=1 | batch= 1121 | target tokens/batch= 812.9000244140625
+INFO:root:Transformer training: time elapsed= 2835.88 [s] | epoch=1 | batch= 1131 | target tokens/batch= 803.0
+INFO:root:Transformer training: time elapsed= 2866.49 [s] | epoch=1 | batch= 1141 | target tokens/batch= 808.7000122070312
+INFO:root:Transformer training: time elapsed= 2896.17 [s] | epoch=1 | batch= 1151 | target tokens/batch= 781.4000244140625
+INFO:root:Transformer training: time elapsed= 2926.44 [s] | epoch=1 | batch= 1161 | target tokens/batch= 713.0
+INFO:root:Transformer training: time elapsed= 2965.07 [s] | epoch=1 | batch= 1171 | target tokens/batch= 752.7000122070312
+INFO:root:Transformer training: time elapsed= 3002.44 [s] | epoch=1 | batch= 1181 | target tokens/batch= 832.0999755859375
+INFO:root:Transformer training: time elapsed= 3039.43 [s] | epoch=1 | batch= 1191 | target tokens/batch= 823.7999877929688
+INFO:root:Transformer training: time elapsed= 3077.18 [s] | epoch=1 | batch= 1201 | target tokens/batch= 783.0
+INFO:root:Transformer training: time elapsed= 3111.67 [s] | epoch=1 | batch= 1211 | target tokens/batch= 754.2999877929688
+INFO:root:Transformer training: time elapsed= 3146.08 [s] | epoch=1 | batch= 1221 | target tokens/batch= 754.2000122070312
+INFO:root:Transformer training: time elapsed= 3181.85 [s] | epoch=1 | batch= 1231 | target tokens/batch= 804.0
+INFO:root:Transformer training: time elapsed= 3218.46 [s] | epoch=1 | batch= 1241 | target tokens/batch= 804.2000122070312
+INFO:root:Transformer training: time elapsed= 3255.53 [s] | epoch=1 | batch= 1251 | target tokens/batch= 816.2000122070312
+INFO:root:Transformer training: time elapsed= 3294.32 [s] | epoch=1 | batch= 1261 | target tokens/batch= 793.9000244140625
+INFO:root:Transformer training: time elapsed= 3328.20 [s] | epoch=1 | batch= 1271 | target tokens/batch= 702.7000122070312
+INFO:root:Transformer training: time elapsed= 3365.97 [s] | epoch=1 | batch= 1281 | target tokens/batch= 771.2999877929688
+INFO:root:Transformer training: time elapsed= 3405.48 [s] | epoch=1 | batch= 1291 | target tokens/batch= 818.5
+INFO:root:Transformer training: time elapsed= 3443.60 [s] | epoch=1 | batch= 1301 | target tokens/batch= 801.2000122070312
