@@ -1,10 +1,5 @@
 # lab_transformer
 
-## Branches: Everybody has one
-
-__PLEASE ONLY WORK ON YOUR BRANCH!!!!!__ 
-
-
 ## Install instructions
 __install with:__ 
 
